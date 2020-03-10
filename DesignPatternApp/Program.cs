@@ -1,4 +1,5 @@
 ﻿using System;
+using FactoryMethodLib;
 using SingletonLib;
 
 namespace DesignPatternApp
@@ -9,26 +10,27 @@ namespace DesignPatternApp
         {
             #region Pattern de Criação
 
-            Console.WriteLine("-------- Pattern Singleton --------");
-            Console.WriteLine();
-            Console.WriteLine("Exemplo: Jogando Futebol");
-            Singleton jogador_1 = Singleton.GetInstancia;
-            jogador_1.Mensagem("Jogador 1: A bola está comigo");
-            Singleton jogador_2 = Singleton.GetInstancia;
-            jogador_2.Mensagem("Jogador 2: Recebeu a bola");
-            Singleton jogador_3 = Singleton.GetInstancia;
-            jogador_3.Mensagem("Jogador 3: Toca a bola para mim");
+            Console.WriteLine("########### PATTERNS DE CRIAÇÃO #############");
+            Console.WriteLine("");
             
-            Console.WriteLine();
-            Console.WriteLine("-------- Pattern Abstract Factory --------");
+            SingletonApp.Executar();
+            FactoryMethodApp.Executar();
+
+            Console.ReadKey();
 
             #endregion
 
             #region Pattern Estrutural
 
+            Console.WriteLine("########### PATTERNS ESTRUTURAL #############");
+            Console.WriteLine("");
+
             #endregion
 
             #region Pattern Comportamental
+
+            Console.WriteLine("########### PATTERNS COMPORTAMENTAL #########");
+            Console.WriteLine("");
 
             #endregion
 
