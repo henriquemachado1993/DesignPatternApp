@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AbstractFactory\AbstractFactoryLib.csproj" />
-    <ProjectReference Include="..\Singleton\SingletonLib.csproj" />
+    <ProjectReference Include="..\SingletonLib\SingletonLib.csproj" />
   </ItemGroup>
 
 </Project>
