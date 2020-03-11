@@ -1,4 +1,5 @@
 ﻿using System;
+using BuilderLib;
 using FactoryMethodLib;
 using SingletonLib;
 
@@ -15,6 +16,7 @@ namespace DesignPatternApp
             
             SingletonApp.Executar();
             FactoryMethodApp.Executar();
+            BuilderApp.Executar();
 
             Console.ReadKey();
 
