@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BuilderLib\BuilderLib.csproj" />
     <ProjectReference Include="..\FactoryMethodLib\FactoryMethodLib.csproj" />
+    <ProjectReference Include="..\PrototypeLib\PrototypeLib.csproj" />
     <ProjectReference Include="..\SingletonLib\SingletonLib.csproj" />
   </ItemGroup>
 
