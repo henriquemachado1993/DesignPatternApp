@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AdapterLib\AdapterLib.csproj" />
     <ProjectReference Include="..\BuilderLib\BuilderLib.csproj" />
     <ProjectReference Include="..\FactoryMethodLib\FactoryMethodLib.csproj" />
     <ProjectReference Include="..\PrototypeLib\PrototypeLib.csproj" />

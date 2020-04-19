@@ -1,4 +1,5 @@
 ﻿using System;
+using AdapterLib;
 using BuilderLib;
 using FactoryMethodLib;
 using PrototypeLib;
@@ -20,14 +21,14 @@ namespace DesignPatternApp
             BuilderApp.Executar();
             PrototypeApp.Executar();
 
-            Console.ReadKey();
-
             #endregion
 
             #region Pattern Estrutural
 
             Console.WriteLine("########### PATTERNS ESTRUTURAL #############");
             Console.WriteLine("");
+
+            AdapterApp.Executar();
 
             #endregion
 
